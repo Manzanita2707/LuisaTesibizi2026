@@ -99,8 +99,9 @@ a { color: var(--blue-500); }
 
 .hero h1 {
   font-family: var(--font-serif); font-weight: 700; font-size: clamp(2rem, 4.6vw, 3.25rem);
-  line-height: 1.12; margin: 0 0 20px; letter-spacing: -.5px;
+  line-height: 1.12; margin: 0 0 20px; letter-spacing: .5px;
 }
+.nowrap { white-space: nowrap; }
 .lead { font-size: clamp(1rem, 1.6vw, 1.15rem); color: #c6d3e2; max-width: 680px; margin: 0 0 32px; }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 48px; }
